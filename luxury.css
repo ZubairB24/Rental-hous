@@ -1,0 +1,151 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+header{
+     padding: -10px;
+     background-color: rgba(79, 77, 77,0.5);
+     font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+    position: fixed;
+
+}
+.flex{
+    display: flex;
+}
+li{
+   font-size: 18px;
+   display: inline;
+  margin-right: 70px;
+   
+}
+li:hover{
+    color: rgb(173, 162, 184);
+    transition: ease-in 0.10s;
+    cursor: pointer;
+}
+   
+.logo{
+    background-image: linear-gradient(lightgray,red, yellow, aliceblue);
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: -5px;
+}
+.cars{
+    padding: 9px;
+   
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+select:hover{
+    color: rgb(173, 162, 184);
+    transition: ease-in 0.10s;
+    cursor: pointer;
+}
+   
+
+
+.first{
+    background-image:url("7.jpg");
+    background-size: 1535px 900px; 
+    background-repeat: no-repeat;
+    height: 600px;
+    color: red;
+}
+.first:hover{
+    background-size: 1550px 930px;
+    transition: ease-in-out 1s;
+}
+.date{
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+input,select,button{
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+}
+input{
+    width: 200px;
+    background-color: rgb(240, 240, 240);
+}
+
+.into{
+    
+    text-align: center;
+    margin: 40px;
+}
+
+.btn1{
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.info{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.flex_img{
+    display: flex;
+    padding: 39px;
+}
+.bg_img{
+        background-image: url('travel.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        color: #fff;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding-top: 40px;
+      }
+     
+section{
+    flex-basis: 35%;
+    display: flex;
+   
+}
+.hi{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+
+}
+
+.endd{
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+h2{
+    padding: 10px;
+}
+p{
+   padding: 5px;
+}
+
+.footr{
+    background-color: rgba(79, 77, 77,0.5);
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+
+
+/* here i made responsive desgin */
